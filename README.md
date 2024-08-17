@@ -1,4 +1,4 @@
-![1cf0d4421acd8dc39d15c30ccc5ee6561ec8a313](https://github.com/user-attachments/assets/9b0fdcff-6c17-49a3-952c-4518cb3320c4)
+![logo](https://github.com/user-attachments/assets/9b0fdcff-6c17-49a3-952c-4518cb3320c4)
 
 
 Cosmic Odyssey is a remake of 'Tardis Reimagined' by me - Addie.
