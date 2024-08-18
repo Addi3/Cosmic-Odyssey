@@ -1,1 +1,6 @@
-{"values":["animated_java:global/on_tick","cosody:tick"]}
+{
+    "values": [
+    "cosody:tick"
+]
+}
+
