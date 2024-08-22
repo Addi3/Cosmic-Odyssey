@@ -1,5 +1,5 @@
 scoreboard players add doors tardis1 1
-execute if score doors tardis1 matches 3.. run scoreboard players set doors tardis1 0
+
 execute if score doors tardis1 matches 1.. run tag @e[tag=tardis1] add open1
 execute if score doors tardis1 matches 0 run tag @e[tag=tardis1] remove open1
 
@@ -23,3 +23,4 @@ execute if score chamelion tardis1 matches 1 if score doors tardis1 matches 0 ru
 
 execute if score chamelion tardis1 matches 1 at @e[tag=tardis1] run playsound minecraft:tt_capsule_door ambient @a[distance=..8] ~ ~ ~ 1.8 1 1
 execute if score chamelion tardis1 matches 1 at @e[tag=intdoor] run playsound minecraft:tt_capsule_door ambient @a[distance=..8] ~ ~ ~ 1.8 1 1
+execute if score chamelion tardis1 matches 1 if score doors tardis1 matches 3.. run scoreboard players set doors tardis1 0
