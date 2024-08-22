@@ -5,4 +5,5 @@ execute at @e[tag=tardis1] run setblock ~ ~ ~ light[level=9]
 effect give @e[tag=hitbox] minecraft:invisibility infinite 1 true
 function cosody:tardis1/spawn_interior
 execute at @e[tag=tardis1] run forceload add ~ ~ ~10 ~10
+function cosody:tardis1/scoreboards
 scoreboard players set new tardis1 1
