@@ -9,7 +9,7 @@ execute at @e[tag=intopen1] if entity @p[distance=..0.5] run function cosody:tar
 
 #isnew
 execute if score new tardis1 matches 1 in cosody:interior1 if block 23 116 21 minecraft:lodestone run function cosody:tardis1/first_repair
-execute unless entity @a[tag=inside1] if score isfixing tardis1 matches 1 if score new tardis1 matches 1 run function cosody:tardis1/new_fix
+execute unless entity @a[tag=inside1] if score needsfixing tardis1 matches 1 if score new tardis1 matches 1 run function cosody:tardis1/new_fix
 
 #fixtimer
 execute if score isfixing tardis1 matches 1 run scoreboard players add fixtimer tardis1 1
