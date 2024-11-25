@@ -9,3 +9,5 @@ execute if score chamelion tardis1 matches 1 at @e[tag=intdoor] run playsound mi
 scoreboard players set doors tardis1 0
 
 scoreboard players set isfixing tardis1 1
+
+execute at @e[tag=tardis1] run tp @e[tag=extdoorint] ~ ~-3 ~
