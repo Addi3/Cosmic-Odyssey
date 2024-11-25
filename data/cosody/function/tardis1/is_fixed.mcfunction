@@ -7,3 +7,7 @@ execute at @e[tag=tardis1] run playsound minecraft:block.respawn_anchor.set_spaw
 scoreboard players set isfixing tardis1 0
 
 scoreboard players set fixtimer tardis1 0
+
+scoreboard players set needsfixing tardis1 0
+
+execute at @e[tag=tardis1] run tp @e[tag=extdoorint] ~ ~2 ~

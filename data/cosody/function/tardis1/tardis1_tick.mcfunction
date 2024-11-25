@@ -14,3 +14,8 @@ execute unless entity @a[tag=inside1] if score needsfixing tardis1 matches 1 if 
 #fixtimer
 execute if score isfixing tardis1 matches 1 run scoreboard players add fixtimer tardis1 1
 execute if score fixtimer tardis1 matches 255 run function cosody:tardis1/is_fixed
+
+#changeinterior
+execute unless entity @a[tag=inside1] if score needschanging tardis1 matches 1 run function cosody:tardis1/interiors/change/new_interior
+execute if score ischanging tardis1 matches 1 run scoreboard players add changetimer tardis1 1
+execute if score changetimer tardis1 matches 190 run function cosody:tardis1/interiors/change/set_interior
