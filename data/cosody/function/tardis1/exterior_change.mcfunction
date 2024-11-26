@@ -19,5 +19,5 @@ execute if score chamelion tardis1 matches 1 run item replace entity @e[tag=intd
 
 scoreboard players set doors tardis1 0
 
-execute at @e[tag=tardis1] run playsound minecraft:tardis_force_field ambient @a[distance=..8] ~ ~ ~ 1.8 1 1
-execute at @e[tag=intdoor] run playsound minecraft:tardis_force_field ambient @a[distance=..8] ~ ~ ~ 1.8 1 1
+execute at @e[tag=tardis1] run playsound minecraft:tardis_force_field ambient @a[distance=..8] ~ ~ ~ .8 1 1
+execute at @e[tag=intdoor] run playsound minecraft:tardis_force_field ambient @a[distance=..8] ~ ~ ~ .8 1 1

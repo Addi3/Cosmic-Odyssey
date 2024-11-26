@@ -17,11 +17,19 @@ execute if score new tardis1 matches 1 at @e[tag=tardis1] run particle minecraft
 execute if score isfixing tardis1 matches 1 run scoreboard players add fixtimer tardis1 1
 execute if score fixtimer tardis1 matches 255 run function cosody:tardis1/is_fixed
 execute if score isfixing tardis1 matches 1 at @e[tag=tardis1] if entity @p[distance=..2] run title @p actionbar [{"text":"255 / ","color":"gold"},{"score":{"objective":"tardis1","name":"fixtimer"},"color":"gold"}]
+execute if score fixtimer tardis1 matches 1 at @e[tag=tardis1] run playsound minecraft:tardis_groan ambient @a[distance=..8] ~ ~ ~ 1.4 1 1
+execute if score fixtimer tardis1 matches 100 at @e[tag=tardis1] run playsound minecraft:tardis_groan ambient @a[distance=..8] ~ ~ ~ 1.4 1 1
+execute if score fixtimer tardis1 matches 200 at @e[tag=tardis1] run playsound minecraft:tardis_groan ambient @a[distance=..8] ~ ~ ~ 1.4 1 1 
 
 #changeinterior
 execute unless entity @a[tag=inside1] if score needschanging tardis1 matches 1 run function cosody:tardis1/interiors/change/new_interior
 execute if score ischanging tardis1 matches 1 run scoreboard players add changetimer tardis1 1
 execute if score changetimer tardis1 matches 190 run function cosody:tardis1/interiors/change/set_interior
+execute if score ischanging tardis1 matches 1 at @e[tag=tardis1] if entity @p[distance=..2] run title @p actionbar [{"text":"190 / ","color":"gold"},{"score":{"objective":"tardis1","name":"changetimer"},"color":"gold"}]
+execute if score changetimer tardis1 matches 1 at @e[tag=tardis1] run playsound minecraft:block.beacon.ambient ambient @a[distance=..8] ~ ~ ~ 1.4 1.5 1
+execute if score changetimer tardis1 matches 50 at @e[tag=tardis1] run playsound minecraft:block.beacon.ambient ambient @a[distance=..8] ~ ~ ~ 1.4 1.5 1
+execute if score changetimer tardis1 matches 100 at @e[tag=tardis1] run playsound minecraft:block.beacon.ambient ambient @a[distance=..8] ~ ~ ~ 1.4 1.5 1
+execute if score changetimer tardis1 matches 150 at @e[tag=tardis1] run playsound minecraft:block.beacon.ambient ambient @a[distance=..8] ~ ~ ~ 1.4 1.5 1
 
 #tardisspawn
 execute if entity @e[tag=tardis1spawnmarker] run function cosody:tardis1/tardisspawn/is_tardisspawnmarker
