@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " g ",
+    " rg",
+    "g  "
+  ],
+  "key": {
+    "g": "minecraft:gold_ingot",
+    "r": "minecraft:redstone"
+  },
+  "result": {
+    "id": "minecraft:ghast_spawn_egg",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 2,
+      "minecraft:item_name": "{\"color\":\"gold\",\"text\":\"Third Dimensional Disturbance Detector\"}"
+    }
+  }
+}

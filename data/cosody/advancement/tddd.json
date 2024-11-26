@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "tddd": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "cosody:tddd"
+        }
+      }
+    },
+    "rewards": {
+      "function": "cosody:tardis1/tardisspawn/give_tardis_spawner"
+    },
+    "sends_telemetry_event": false
+  }
+  
