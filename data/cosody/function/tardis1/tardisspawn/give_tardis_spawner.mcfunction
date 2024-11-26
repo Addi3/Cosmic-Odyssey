@@ -1,0 +1,1 @@
+give @p ghast_spawn_egg[entity_data={id:"minecraft:armor_stand",Invisible:1b,Tags:["tardis1spawnmarker"]},custom_model_data=1,item_name='{"color":"gold","text":"Third Dimensional Disturbance Detector"}'] 1
