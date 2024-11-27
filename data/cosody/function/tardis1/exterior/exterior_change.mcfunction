@@ -10,7 +10,12 @@ execute if score chamelion tardis1 matches 3 run title @p actionbar {"bold":true
 execute if score chamelion tardis1 matches 3 run item replace entity @e[tag=tardis1] armor.head with minecraft:red_dye[custom_model_data=1]
 execute if score chamelion tardis1 matches 3 run item replace entity @e[tag=intdoor] armor.head with minecraft:red_dye[custom_model_data=3]
 
-execute if score chamelion tardis1 matches 4 run scoreboard players set chamelion tardis1 1
+#tardim
+execute if score chamelion tardis1 matches 4 run title @p actionbar {"bold":true,"color":"gold","text":"Tardim"}
+execute if score chamelion tardis1 matches 4 run item replace entity @e[tag=tardis1] armor.head with minecraft:blue_dye[custom_model_data=1]
+execute if score chamelion tardis1 matches 4 run item replace entity @e[tag=intdoor] armor.head with minecraft:blue_dye[custom_model_data=3]
+
+execute if score chamelion tardis1 matches 5 run scoreboard players set chamelion tardis1 1
 
 #ttcapsule
 execute if score chamelion tardis1 matches 1 run title @p actionbar {"bold":true,"color":"gold","text":"TT-Capsule"}

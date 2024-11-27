@@ -21,6 +21,14 @@ execute if score chamelion tardis1 matches 3 run item replace entity @e[tag=intd
 execute if score chamelion tardis1 matches 3 at @e[tag=tardis1] run playsound minecraft:block.copper_door.close ambient @a[distance=..8] ~ ~ ~ 1.8 1 1
 execute if score chamelion tardis1 matches 3 at @e[tag=intdoor1] run playsound minecraft:block.copper_door.close ambient @a[distance=..8] ~ ~ ~ 1.8 1 1
 
+
+#tardim
+execute if score chamelion tardis1 matches 4 run item replace entity @e[tag=tardis1] armor.head with minecraft:blue_dye[custom_model_data=1]
+execute if score chamelion tardis1 matches 4 run item replace entity @e[tag=intdoor1] armor.head with minecraft:blue_dye[custom_model_data=3]
+
+execute if score chamelion tardis1 matches 4 at @e[tag=tardis1] run playsound minecraft:block.wooden_door.close ambient @a[distance=..8] ~ ~ ~ 1.8 1 1
+execute if score chamelion tardis1 matches 4 at @e[tag=intdoor1] run playsound minecraft:block.wooden_door.close ambient @a[distance=..8] ~ ~ ~ 1.8 1 1
+
 function cosody:tardis1/doors/door_tags
 
 scoreboard players set doors tardis1 0
