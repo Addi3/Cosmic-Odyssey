@@ -13,3 +13,4 @@ execute at @e[tag=tardis1] run tp @e[tag=extdoorint] ~ ~-3 ~
 execute in cosody:interior1 run kill @e[tag=intdoorint1]
 execute in cosody:interior1 run kill @e[tag=intdoor1]
 execute in cosody:interior1 run kill @e[tag=console1]
+execute in cosody:interior1 run kill @e[tag=rotorbase1]
