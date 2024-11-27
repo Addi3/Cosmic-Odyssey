@@ -9,7 +9,7 @@
               "entity": "this",
               "predicate": {
                 "type": "minecraft:interaction",
-                "nbt": "{Tags:[\"extdoorint\"]}"
+                "nbt": "{Tags:[\"extdoorint1\"]}"
               }
             }
           ]

@@ -1,4 +1,4 @@
-function cosody:tardis1/interiors/dwcm
+function cosody:tardis1/interiors/chronometer
 function cosody:tardis1/interiors/corridors/corridor1
 function cosody:tardis1/interiors/corridors/corridor3
 
@@ -10,4 +10,4 @@ scoreboard players set fixtimer tardis1 0
 
 scoreboard players set needsfixing tardis1 0
 
-execute at @e[tag=tardis1] run tp @e[tag=extdoorint] ~ ~ ~
+execute at @e[tag=tardis1] run tp @e[tag=extdoorint1] ~ ~ ~

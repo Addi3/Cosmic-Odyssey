@@ -13,4 +13,4 @@ function cosody:tardis1/doors/door_tags
 
 scoreboard players set isfixing tardis1 1
 
-execute at @e[tag=tardis1] run tp @e[tag=extdoorint] ~ ~-3 ~
+execute at @e[tag=tardis1] run tp @e[tag=extdoorint1] ~ ~-3 ~

@@ -1,6 +1,6 @@
 #misc
 execute if entity @e[tag=tardis1] at @e[tag=tardis1] run tp @e[tag=hitbox] ~ ~ ~
-execute if entity @e[tag=tardis1] if score ischanging tardis1 matches 0 if score isfixing tardis1 matches 0 at @e[tag=tardis1] run tp @e[tag=extdoorint] ~ ~ ~
+execute if entity @e[tag=tardis1] if score ischanging tardis1 matches 0 if score isfixing tardis1 matches 0 at @e[tag=tardis1] run tp @e[tag=extdoorint1] ~ ~ ~
 execute at @e[tag=intdoor] run tp @e[tag=intdoorint] ~ ~ ~
 
 #doors
