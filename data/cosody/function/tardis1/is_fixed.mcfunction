@@ -1,5 +1,6 @@
 function cosody:tardis1/interiors/dwcm
 function cosody:tardis1/interiors/corridors/corridor1
+function cosody:tardis1/interiors/corridors/corridor3
 
 execute at @e[tag=tardis1] run playsound minecraft:block.respawn_anchor.set_spawn ambient @a[distance=..8] ~ ~ ~ 2 1.1 1
 

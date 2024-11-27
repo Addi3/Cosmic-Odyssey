@@ -1,0 +1,1 @@
+execute in cosody:interior1 run place template cosody:corridor3 -1 100 -90
