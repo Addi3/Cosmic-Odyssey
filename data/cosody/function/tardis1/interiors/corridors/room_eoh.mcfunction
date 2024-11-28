@@ -1,0 +1,1 @@
+execute in cosody:interior1 run place template cosody:room_eoh -49 100 -90

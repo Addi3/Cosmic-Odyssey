@@ -11,3 +11,5 @@ scoreboard players set needschanging tardis1 0
 scoreboard players set ischanging tardis1 0
 scoreboard players set changetimer tardis1 0
 scoreboard players set interior tardis1 0
+scoreboard players set eohon tardis1 0
+scoreboard players set power tardis1 0

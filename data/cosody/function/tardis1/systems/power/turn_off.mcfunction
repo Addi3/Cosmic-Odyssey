@@ -1,0 +1,1 @@
+effect give @p[tag=inside1] minecraft:darkness infinite 1 true
