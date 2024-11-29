@@ -13,3 +13,4 @@ scoreboard players set changetimer tardis1 0
 scoreboard players set interior tardis1 0
 scoreboard players set eohon tardis1 0
 scoreboard players set power tardis1 0
+scoreboard players set ignitionbutton tardis1 0
