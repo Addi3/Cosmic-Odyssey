@@ -51,3 +51,6 @@ execute in cosody:interior1 if block -25 123 -67 redstone_block if score power t
 #ambiance
 execute if score power tardis1 matches 1 run function cosody:tardis1/exterior/ambience
 execute if score power tardis1 matches 1 run function cosody:tardis1/interiors/ambience
+
+#exterior_view
+execute if score exteriorview tardis1 matches 1 run function cosody:tardis1/monitor/exterior_view/to_exterior
