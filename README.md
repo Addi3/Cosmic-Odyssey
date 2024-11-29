@@ -13,3 +13,7 @@ All assets are not to be used in other media unless permited!
 - Addie: Main Dev
 
 - [MakeTendo](https://www.youtube.com/@Maketendo): Logo (background)
+
+- [DWCM](https://www.reddit.com/r/doctorwhoclientmod/): DWCM (interior / exterior)
+
+- [Tardim](https://www.planetminecraft.com/project/tardim---time-and-relative-dimension-in-minecraft/): Tardim (exterior)
