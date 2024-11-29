@@ -1,1 +1,1 @@
-execute in cosody:interior1 run place template cosody:newberry -1 100 6
+execute in cosody:interior1 run place template cosody:consoles/newberry -1 100 6

@@ -1,1 +1,1 @@
-execute in cosody:interior1 run place template cosody:chronometer -1 100 6
+execute in cosody:interior1 run place template cosody:consoles/chronometer -1 100 6

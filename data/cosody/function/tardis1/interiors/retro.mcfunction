@@ -1,1 +1,1 @@
-execute in cosody:interior1 run place template cosody:retro -1 100 6
+execute in cosody:interior1 run place template cosody:consoles/retro -1 100 6

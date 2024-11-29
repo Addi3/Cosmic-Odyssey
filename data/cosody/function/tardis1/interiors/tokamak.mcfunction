@@ -1,1 +1,1 @@
-execute in cosody:interior1 run place template cosody:tokamak -1 100 6
+execute in cosody:interior1 run place template cosody:consoles/tokamak -1 100 6
