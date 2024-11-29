@@ -47,3 +47,7 @@ execute in cosody:interior1 if block -18 119 -74 minecraft:soul_lantern run part
 
 execute in cosody:interior1 if block -25 123 -67 redstone_block if score power tardis1 matches 1 run function cosody:tardis1/systems/power/turn_on
 execute in cosody:interior1 if block -25 123 -67 redstone_block if score power tardis1 matches 0 run function cosody:tardis1/systems/power/turn_off
+
+#ambiance
+execute if score power tardis1 matches 1 run function cosody:tardis1/exterior/ambience
+execute if score power tardis1 matches 1 run function cosody:tardis1/interiors/ambience

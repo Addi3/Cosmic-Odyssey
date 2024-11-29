@@ -2,6 +2,8 @@ scoreboard players add doors tardis1 1
 
 function cosody:tardis1/doors/door_tags
 
+execute at @e[tag=open1] run playsound minecraft:ship_ambience2 ambient @p[distance=..4] ~ ~ ~ .5 1 1
+
 
 #ttcapsule
 execute if score chamelion tardis1 matches 1 if score doors tardis1 matches 1 run item replace entity @e[tag=tardis1] armor.head with minecraft:light_gray_dye[custom_model_data=2]
