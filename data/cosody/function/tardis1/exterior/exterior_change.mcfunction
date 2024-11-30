@@ -2,7 +2,7 @@ execute if score chamelionNo tardis1 matches 1 run scoreboard players set chamel
 execute if score chamelionNo tardis1 matches 2 run scoreboard players set chamelion tardis1 2
 execute if score chamelionNo tardis1 matches 3 run scoreboard players set chamelion tardis1 3
 execute if score chamelionNo tardis1 matches 4 run scoreboard players set chamelion tardis1 4
-
+execute if score chamelionNo tardis1 matches 5 run scoreboard players set chamelion tardis1 5
 
 #dwcm
 execute if score chamelionNo tardis1 matches 2 run item replace entity @e[tag=tardis1] armor.head with minecraft:cyan_dye[custom_model_data=1]
@@ -15,6 +15,10 @@ execute if score chamelionNo tardis1 matches 3 run item replace entity @e[tag=in
 #tardim
 execute if score chamelionNo tardis1 matches 4 run item replace entity @e[tag=tardis1] armor.head with minecraft:blue_dye[custom_model_data=1]
 execute if score chamelionNo tardis1 matches 4 run item replace entity @e[tag=intdoor1] armor.head with minecraft:blue_dye[custom_model_data=3]
+
+#policebox
+execute if score chamelionNo tardis1 matches 5 run item replace entity @e[tag=tardis1] armor.head with minecraft:light_blue_dye[custom_model_data=1]
+execute if score chamelionNo tardis1 matches 5 run item replace entity @e[tag=intdoor1] armor.head with minecraft:light_blue_dye[custom_model_data=4]
 
 #ttcapsule
 execute if score chamelionNo tardis1 matches 1 run item replace entity @e[tag=tardis1] armor.head with minecraft:light_gray_dye[custom_model_data=1]
