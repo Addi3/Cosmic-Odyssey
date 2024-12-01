@@ -19,3 +19,4 @@ scoreboard players set maxfuel tardis1 1000
 scoreboard players set minfuel tardis1 0
 scoreboard players set currentfuel tardis1 1000
 scoreboard players set fuelmonitor tardis1 10
+scoreboard players set vortexspeed tardis1 1
