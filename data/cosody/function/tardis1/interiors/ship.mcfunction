@@ -1,0 +1,1 @@
+execute in cosody:interior1 run place template cosody:consoles/ship -1 100 6

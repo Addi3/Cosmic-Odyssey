@@ -54,3 +54,8 @@ execute if score power tardis1 matches 1 run function cosody:tardis1/interiors/a
 
 #exterior_view
 execute if score exteriorview tardis1 matches 1 run function cosody:tardis1/monitor/exterior_view/to_exterior
+
+#Fuel
+execute if score currentfuel tardis1 = minfuel tardis1 run function cosody:tardis1/systems/power/fuel_power_off
+execute if score currentfuel tardis1 < minfuel tardis1 run scoreboard players set currentfuel tardis1 0
+execute if score currentfuel tardis1 > maxfuel tardis1 run scoreboard players set currentfuel tardis1 1000

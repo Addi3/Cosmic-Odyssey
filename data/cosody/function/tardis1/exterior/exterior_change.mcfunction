@@ -31,3 +31,5 @@ execute at @e[tag=intdoor1] run playsound minecraft:tardis_force_field ambient @
 execute at @e[tag=monitor1] if entity @p[tag=inside1,distance=..3] run playsound minecraft:tardis_force_field ambient @a[distance=..8] ~ ~ ~ .8 1 1
 title @p actionbar {"bold":true,"color":"green","text":"Exterior Changed"}
 execute at @e[tag=monitor1] if score power tardis1 matches 1 if entity @p[tag=inside1,distance=..3] run tellraw @p[tag=inside1] {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n "}
+
+scoreboard players remove currentfuel tardis1 5

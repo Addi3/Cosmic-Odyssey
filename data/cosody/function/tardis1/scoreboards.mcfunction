@@ -1,5 +1,5 @@
 scoreboard objectives add tardis1 dummy
-scoreboard players add tardis1exists tardis1 1
+scoreboard players set tardis1exists tardis1 1
 scoreboard players set doors tardis1 0
 scoreboard players set locked tardis1 0
 scoreboard players set chamelion tardis1 1
@@ -15,3 +15,7 @@ scoreboard players set power tardis1 0
 scoreboard players set ignitionbutton tardis1 0
 scoreboard players set ambience1 tardis1 0
 scoreboard players set exteriorview tardis1 0
+scoreboard players set maxfuel tardis1 1000
+scoreboard players set minfuel tardis1 0
+scoreboard players set currentfuel tardis1 1000
+scoreboard players set fuelmonitor tardis1 10
