@@ -62,3 +62,6 @@ execute if score currentfuel tardis1 > maxfuel tardis1 run scoreboard players se
 
 #geartimer
 function cosody:tardis1/systems/throttle/geartimer
+
+#de/remat
+function cosody:tardis1/de_remat/demat/demat
