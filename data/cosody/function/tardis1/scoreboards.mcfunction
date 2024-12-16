@@ -25,3 +25,6 @@ scoreboard players set handbrake tardis1 1
 scoreboard players set demat_anim_timer tardis1 0
 scoreboard players set taking_off tardis1 0
 scoreboard players set locked tardis1 0
+
+#this is a local scoreboard and doesnt apply to just tardis 1 !
+scoreboard objectives add crouch minecraft.custom:minecraft.sneak_time
