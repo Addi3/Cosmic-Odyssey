@@ -1,4 +1,4 @@
-execute if score taking_off tardis1 matches 1 run scoreboard players add demat_anim_timer tardis1 1 
+execute if score taking_off tardis1 matches 1 if score handbrake tardis1 matches 0 run scoreboard players add demat_anim_timer tardis1 1 
 execute if score demat_anim_timer tardis1 matches 1 run function cosody:tardis1/de_remat/renametotardis1v
 execute if score demat_anim_timer tardis1 matches 2 at @e[tag=tardis1v] run playsound minecraft:takeoff ambient @a[tag=!inside] ~ ~ ~ .7 1 1
 execute if score demat_anim_timer tardis1 matches 2 in cosody:interior1 at @e[tag=console1] run playsound minecraft:takeoff ambient @a[tag=inside1] ~ ~ ~ .7 1 1
