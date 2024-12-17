@@ -5,3 +5,4 @@ execute if score ignitionbutton tardis1 matches 1 run item replace entity @e[tag
 execute if score ignitionbutton tardis1 matches 1 run item replace entity @e[tag=ignitionbuttonmodel1] armor.head with minecraft:white_dye[custom_model_data=5]
 execute if score ignitionbutton tardis1 matches 1 run scoreboard players set ignitionbutton tardis1 0
 advancement revoke @p only cosody:tardis1/power_off
+effect give @p[tag=inside1] minecraft:darkness infinite 3 true

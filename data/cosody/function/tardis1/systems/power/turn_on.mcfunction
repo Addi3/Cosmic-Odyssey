@@ -1,1 +1,0 @@
-effect clear @e[tag=inside1] minecraft:darkness
