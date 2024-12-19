@@ -16,7 +16,7 @@ execute if score new tardis1 matches 1 at @e[tag=tardis1] run particle minecraft
 #fixtimer
 execute if score isfixing tardis1 matches 1 run scoreboard players add fixtimer tardis1 1
 execute if score fixtimer tardis1 matches 255 run function cosody:tardis1/is_fixed
-execute if score isfixing tardis1 matches 1 at @e[tag=tardis1] if entity @p[distance=..2] run title @p actionbar [{"score":{"objective":"tardis1","name":"fixtimer"},"color":"gold"},{"text":" /    255","color":"gold"}]
+execute if score isfixing tardis1 matches 1 at @e[tag=tardis1] if entity @p[distance=..2] run title @p actionbar [{"score":{"objective":"tardis1","name":"fixtimer"},"color":"gold"},{"text":" / 255","color":"gold"}]
 execute if score fixtimer tardis1 matches 1 at @e[tag=tardis1] run playsound minecraft:tardis_groan ambient @a[distance=..8] ~ ~ ~ 1.4 1 1
 execute if score fixtimer tardis1 matches 100 at @e[tag=tardis1] run playsound minecraft:tardis_groan ambient @a[distance=..8] ~ ~ ~ 1.4 1 1
 execute if score fixtimer tardis1 matches 200 at @e[tag=tardis1] run playsound minecraft:tardis_groan ambient @a[distance=..8] ~ ~ ~ 1.4 1 1 
@@ -88,6 +88,6 @@ execute at @e[tag=tardis1] if entity @p[nbt={Inventory:[{id:"minecraft:iron_nugg
 execute at @e[tag=tardis1] if entity @p[nbt={SelectedItem:{id:"minecraft:iron_nugget",components:{"minecraft:custom_model_data":2},components:{"minecraft:lore":['"Linked: Tardis1"']}}},distance=..8] if score locked tardis1 matches 0 if score doors tardis1 matches 0 if score @p crouch matches 1.. run function cosody:tardis1/doors/snapping/snap_open
 execute at @e[tag=tardis1] if entity @p[nbt={Inventory:[{id:"minecraft:iron_nugget",Slot:-106b,components:{"minecraft:custom_model_data":2},components:{"minecraft:lore":['"Linked: Tardis1"']}}]},distance=..8] if score locked tardis1 matches 0 if score @p crouch matches 1.. run function cosody:tardis1/doors/snapping/snap_close
 
-
-
+#vortextimer
+function cosody:tardis1/de_remat/autopilot/vortextimer
 
