@@ -65,6 +65,7 @@ function cosody:tardis1/systems/throttle/geartimer
 
 #de/remat
 function cosody:tardis1/de_remat/demat/demat
+function cosody:tardis1/de_remat/remat/remat
 
 #snpping
 

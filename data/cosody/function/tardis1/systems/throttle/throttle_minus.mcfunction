@@ -6,3 +6,4 @@ execute if score vortexspeed tardis1 matches 0 run item replace entity @e[tag=th
 execute if score vortexspeed tardis1 matches 1 run item replace entity @e[tag=throttle1] armor.head with minecraft:white_dye[custom_model_data=8]
 execute if score vortexspeed tardis1 matches 2 run item replace entity @e[tag=throttle1] armor.head with minecraft:white_dye[custom_model_data=9]
 execute if score vortexspeed tardis1 matches 3 run item replace entity @e[tag=throttle1] armor.head with minecraft:white_dye[custom_model_data=10]
+execute if score invortex tardis1 matches 1 if score vortexspeed tardis1 matches 0 run scoreboard players set landing tardis1 1
