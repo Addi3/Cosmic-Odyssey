@@ -10,11 +10,4 @@ execute if score rotortimer tardis1 matches 40 run scoreboard players set rotort
 execute if score rotortimer tardis1 matches 32 at @e[tag=console1] if entity @p[tag=inside1,distance=..80] run playsound minecraft:time_rotor ambient @a[tag=inside1] ~ ~ ~ 1.7 1 1
 execute if score rotortimer tardis1 matches 40 at @e[tag=intdoor1] if entity @p[distance=..2] run playsound minecraft:vortex ambient @p ~ ~ ~ .4 1 1
 
-execute if score rotortimer tardis1 matches 5 as @e[tag=rotor_anim1] at @s run tp @s ~ ~.09 ~
-execute if score rotortimer tardis1 matches 10 as @e[tag=rotor_anim1] at @s run tp @s ~ ~.09 ~
-execute if score rotortimer tardis1 matches 20 as @e[tag=rotor_anim1] at @s run tp @s ~ 112 ~
-
-
-execute if score rotortimer tardis1 matches 30 as @e[tag=rotor_anim1] at @s run tp @s ~ ~-.09 ~
-execute if score rotortimer tardis1 matches 35 as @e[tag=rotor_anim1] at @s run tp @s ~ ~-.09 ~
-execute if score rotortimer tardis1 matches 40 as @e[tag=rotor_anim1] at @s run tp @s ~ 112 ~
+#put rotor animations here (use models for it cus it will look better)
