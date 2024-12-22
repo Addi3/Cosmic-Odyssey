@@ -91,3 +91,5 @@ execute at @e[tag=tardis1] if entity @p[nbt={Inventory:[{id:"minecraft:iron_nugg
 #vortextimer
 function cosody:tardis1/de_remat/auto_manual_flight/vortextimer
 
+#musichandler
+function cosody:tardis1/music/new_machine_track
