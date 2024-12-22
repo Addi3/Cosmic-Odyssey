@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "cosody:tardis1/monitor/main"
+    "function": "cosody:tardis1/systems/monitor/main"
   }
 }
