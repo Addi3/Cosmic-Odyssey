@@ -23,7 +23,7 @@ execute if score vortexspeed tardis1 matches 1 if score rotortimer tardis1 match
 execute if score vortexspeed tardis1 matches 2 if score rotortimer tardis1 matches 1.. as @e[tag=rotor_anim1] at @s run tp @s ~ ~ ~ ~10 ~
 execute if score vortexspeed tardis1 matches 3 if score rotortimer tardis1 matches 1.. as @e[tag=rotor_anim1] at @s run tp @s ~ ~ ~ ~15 ~
 
-execute if score rotorsfxtimer tardis1 matches 1 at @e[tag=intdoor1] if entity @p[distance=..2] run playsound minecraft:vortex ambient @p ~ ~ ~ .4 1 1
+execute if score rotorsfxtimer tardis1 matches 1 at @e[tag=intdoor1] if entity @p[distance=..2] run playsound minecraft:vortex ambient @p ~ ~ ~ .1 1 1
 
 execute as @e[tag=rotor_anim1] at @e[tag=console1] if score rotorsfxtimer tardis1 matches 1 run tp @s ~ ~.2 ~
 execute as @e[tag=rotor_anim1] at @e[tag=console1] if score rotorsfxtimer tardis1 matches 10 run tp @s ~ ~-.2 ~

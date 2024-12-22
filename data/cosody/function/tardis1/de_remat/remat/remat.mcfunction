@@ -9,7 +9,6 @@ execute if score remat_anim_timer tardis1 matches 10 in cosody:interior1 as @e[t
 
 execute if score remat_anim_timer tardis1 matches 198 run function cosody:tardis1/de_remat/phases/phase_0
 execute if score remat_anim_timer tardis1 matches 202 run function cosody:tardis1/de_remat/phases/phase_1
-execute if score remat_anim_timer tardis1 matches 203 at @e[tag=tardis1v] run setblock ~ ~ ~ light[level=4]
 execute if score remat_anim_timer tardis1 matches 204 run function cosody:tardis1/de_remat/phases/phase_1
 execute if score remat_anim_timer tardis1 matches 206 run function cosody:tardis1/de_remat/phases/phase_2
 execute if score remat_anim_timer tardis1 matches 208 run function cosody:tardis1/de_remat/phases/phase_3
@@ -25,7 +24,6 @@ execute if score remat_anim_timer tardis1 matches 220 run function cosody:tardis
 execute if score remat_anim_timer tardis1 matches 222 run function cosody:tardis1/de_remat/phases/phase_2
 execute if score remat_anim_timer tardis1 matches 225 run function cosody:tardis1/de_remat/phases/phase_3
 execute if score remat_anim_timer tardis1 matches 226 run function cosody:tardis1/de_remat/phases/phase_4
-execute if score remat_anim_timer tardis1 matches 227 at @e[tag=tardi1sv] run setblock ~ ~ ~ light[level=6]
 execute if score remat_anim_timer tardis1 matches 228 run function cosody:tardis1/de_remat/phases/phase_5
 execute if score remat_anim_timer tardis1 matches 230 run function cosody:tardis1/de_remat/phases/phase_6
 execute if score remat_anim_timer tardis1 matches 232 run function cosody:tardis1/de_remat/phases/phase_5
@@ -46,7 +44,6 @@ execute if score remat_anim_timer tardis1 matches 254 run function cosody:tardis
 execute if score remat_anim_timer tardis1 matches 256 run function cosody:tardis1/de_remat/phases/phase_3
 execute if score remat_anim_timer tardis1 matches 258 run function cosody:tardis1/de_remat/phases/phase_2
 execute if score remat_anim_timer tardis1 matches 260 run function cosody:tardis1/de_remat/phases/phase_1
-execute if score remat_anim_timer tardis1 matches 261 at @e[tag=tardis1v] run setblock ~ ~ ~ light[level=4]
 execute if score remat_anim_timer tardis1 matches 262 run function cosody:tardis1/de_remat/phases/phase_1
 
 execute if score remat_anim_timer tardis1 matches 264 run function cosody:tardis1/de_remat/phases/phase_1
@@ -57,7 +54,6 @@ execute if score remat_anim_timer tardis1 matches 270 run function cosody:tardis
 execute if score remat_anim_timer tardis1 matches 272 run function cosody:tardis1/de_remat/phases/phase_4
 execute if score remat_anim_timer tardis1 matches 274 run function cosody:tardis1/de_remat/phases/phase_5
 execute if score remat_anim_timer tardis1 matches 276 run function cosody:tardis1/de_remat/phases/phase_6
-execute if score remat_anim_timer tardis1 matches 277 at @e[tag=tardis1v] run setblock ~ ~ ~ light[level=6]
 execute if score remat_anim_timer tardis1 matches 278 run function cosody:tardis1/de_remat/phases/phase_5
 execute if score remat_anim_timer tardis1 matches 280 run function cosody:tardis1/de_remat/phases/phase_4
 execute if score remat_anim_timer tardis1 matches 282 run function cosody:tardis1/de_remat/phases/phase_3
@@ -68,7 +64,6 @@ execute if score remat_anim_timer tardis1 matches 288 run function cosody:tardis
 execute if score remat_anim_timer tardis1 matches 290 run function cosody:tardis1/de_remat/phases/phase_4
 execute if score remat_anim_timer tardis1 matches 292 run function cosody:tardis1/de_remat/phases/phase_5
 execute if score remat_anim_timer tardis1 matches 294 run function cosody:tardis1/de_remat/phases/phase_6
-execute if score remat_anim_timer tardis1 matches 295 at @e[tag=tardis1v] run setblock ~ ~ ~ light[level=5]
 execute if score remat_anim_timer tardis1 matches 296 run function cosody:tardis1/de_remat/phases/phase_7
 execute if score remat_anim_timer tardis1 matches 298 run function cosody:tardis1/de_remat/phases/phase_6
 execute if score remat_anim_timer tardis1 matches 300 run function cosody:tardis1/de_remat/phases/phase_5
@@ -79,7 +74,6 @@ execute if score remat_anim_timer tardis1 matches 306 run function cosody:tardis
 
 execute if score remat_anim_timer tardis1 matches 308 run function cosody:tardis1/de_remat/phases/phase_1
 execute if score remat_anim_timer tardis1 matches 320 run function cosody:tardis1/de_remat/phases/phase_1
-execute if score remat_anim_timer tardis1 matches 321 at @e[tag=tardis1v] run setblock ~ ~ ~ light[level=5]
 execute if score remat_anim_timer tardis1 matches 322 run function cosody:tardis1/de_remat/phases/phase_2
 execute if score remat_anim_timer tardis1 matches 324 run function cosody:tardis1/de_remat/phases/phase_3
 execute if score remat_anim_timer tardis1 matches 326 run function cosody:tardis1/de_remat/phases/phase_4
@@ -91,6 +85,8 @@ execute if score remat_anim_timer tardis1 matches 334 run function cosody:tardis
 execute if score remat_anim_timer tardis1 matches 333 run function cosody:tardis1/de_remat/phases/phase_8
 execute if score remat_anim_timer tardis1 matches 336 at @e[tag=tardis1v] run setblock ~ ~ ~ light[level=9]   
 execute if score remat_anim_timer tardis1 matches 337 run function cosody:tardis1/de_remat/phases/phase_9
+execute if score remat_anim_timer tardis1 matches 338 at @e[tag=tardis1v] run setblock ~ ~ ~ air
+execute if score remat_anim_timer tardis1 matches 338 run item replace entity @e[tag=tardis1] weapon.offhand with minecraft:soul_torch[custom_model_data=1]
 
 
 execute if score remat_anim_timer tardis1 matches 339 run playsound minecraft:thud ambient @a[tag=inside1] ~ ~ ~ 5 1 1
