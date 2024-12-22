@@ -89,5 +89,5 @@ execute at @e[tag=tardis1] if entity @p[nbt={SelectedItem:{id:"minecraft:iron_nu
 execute at @e[tag=tardis1] if entity @p[nbt={Inventory:[{id:"minecraft:iron_nugget",Slot:-106b,components:{"minecraft:custom_model_data":2},components:{"minecraft:lore":['"Linked: Tardis1"']}}]},distance=..8] if score locked tardis1 matches 0 if score @p crouch matches 1.. run function cosody:tardis1/doors/snapping/snap_close
 
 #vortextimer
-function cosody:tardis1/de_remat/autopilot/vortextimer
+function cosody:tardis1/de_remat/auto_manual_flight/vortextimer
 

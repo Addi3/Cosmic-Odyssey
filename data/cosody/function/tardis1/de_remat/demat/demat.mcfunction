@@ -1,4 +1,4 @@
-execute if score taking_off tardis1 matches 1 if score zig_zag tardis1 matches 1 if score handbrake tardis1 matches 0 run scoreboard players add demat_anim_timer tardis1 1 
+execute if score taking_off tardis1 matches 1 if score zig_zag tardis1 matches 1 if score handbrake tardis1 matches 0 if score currentfuel tardis1 >= fuelflight tardis1 run scoreboard players add demat_anim_timer tardis1 1 
 execute if score demat_anim_timer tardis1 matches 1 run function cosody:tardis1/de_remat/renametotardis1v
 execute if score demat_anim_timer tardis1 matches 1 run playsound minecraft:thud ambient @a[tag=inside1] ~ ~ ~ 5 1 1
 execute if score demat_anim_timer tardis1 matches 2 at @e[tag=tardis1v] if entity @p[distance=..5] run playsound minecraft:takeoff ambient @p ~ ~ ~ 5 1 1
@@ -23,6 +23,7 @@ execute if score demat_anim_timer tardis1 matches 113 at @e[tag=tardis1v] run se
 execute if score demat_anim_timer tardis1 matches 114 run function cosody:tardis1/de_remat/phases/phase_5
 execute if score demat_anim_timer tardis1 matches 116 run function cosody:tardis1/de_remat/phases/phase_6
 execute if score demat_anim_timer tardis1 matches 118 run function cosody:tardis1/de_remat/phases/phase_7
+execute if score demat_anim_timer tardis1 matches 118 run scoreboard players remove currentfuel tardis1 5
 
 execute if score demat_anim_timer tardis1 matches 120 run function cosody:tardis1/de_remat/phases/phase_8
 execute if score demat_anim_timer tardis1 matches 121 at @e[tag=tardis1v] run setblock ~ ~ ~ light[level=8]
@@ -65,6 +66,7 @@ execute if score demat_anim_timer tardis1 matches 178 run function cosody:tardis
 execute if score demat_anim_timer tardis1 matches 179 at @e[tag=tardis1v] run setblock ~ ~ ~ light[level=8]
 execute if score demat_anim_timer tardis1 matches 180 run function cosody:tardis1/de_remat/phases/phase_5
 execute if score demat_anim_timer tardis1 matches 182 run function cosody:tardis1/de_remat/phases/phase_6
+execute if score demat_anim_timer tardis1 matches 183 run scoreboard players remove currentfuel tardis1 5
 
 execute if score demat_anim_timer tardis1 matches 186 run function cosody:tardis1/de_remat/phases/phase_5
 execute if score demat_anim_timer tardis1 matches 188 run function cosody:tardis1/de_remat/phases/phase_4
@@ -124,6 +126,7 @@ execute if score demat_anim_timer tardis1 matches 282 run function cosody:tardis
 execute if score demat_anim_timer tardis1 matches 283 at @e[tag=tardis1v] run setblock ~ ~ ~ air
 execute if score demat_anim_timer tardis1 matches 284 run function cosody:tardis1/de_remat/phases/phase_1
 execute if score demat_anim_timer tardis1 matches 286 run function cosody:tardis1/de_remat/phases/phase_0
+execute if score demat_anim_timer tardis1 matches 286 run scoreboard players remove currentfuel tardis1 5
 
 execute if score demat_anim_timer tardis1 matches 320 run scoreboard players set invortex tardis1 1
 execute if score demat_anim_timer tardis1 matches 322 run scoreboard players set taking_off tardis1 0

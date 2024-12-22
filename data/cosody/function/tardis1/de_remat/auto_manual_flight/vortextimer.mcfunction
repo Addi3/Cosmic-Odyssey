@@ -32,3 +32,13 @@ execute as @e[tag=rotor_anim1] at @e[tag=console1] if score rotorsfxtimer tardis
 execute as @e[tag=rotor_anim1] at @e[tag=console1] if score rotorsfxtimer tardis1 matches 40 run tp @s ~ ~.2 ~
 execute as @e[tag=rotor_anim1] at @e[tag=console1] if score rotorsfxtimer tardis1 matches 50 run tp @s ~ ~-.2 ~
 execute as @e[tag=rotor_anim1] at @e[tag=console1] if score rotorsfxtimer tardis1 matches 60 run tp @s ~ ~ ~
+
+execute if score autoflight tardis1 matches 1 if score invortex tardis1 matches 1 if score vortexspeed tardis1 matches 1 if score vortextimer tardis1 matches 100 run scoreboard players remove currentfuel tardis1 15
+execute if score autoflight tardis1 matches 1 if score invortex tardis1 matches 1 if score vortexspeed tardis1 matches 1 if score vortextimer tardis1 matches 5000 run scoreboard players remove currentfuel tardis1 15
+execute if score autoflight tardis1 matches 1 if score invortex tardis1 matches 1 if score vortexspeed tardis1 matches 1 if score vortextimer tardis1 matches 10000 run scoreboard players remove currentfuel tardis1 15
+execute if score autoflight tardis1 matches 1 if score invortex tardis1 matches 1 if score vortexspeed tardis1 matches 2 if score vortextimer tardis1 matches 100 run scoreboard players remove currentfuel tardis1 15
+execute if score autoflight tardis1 matches 1 if score invortex tardis1 matches 1 if score vortexspeed tardis1 matches 2 if score vortextimer tardis1 matches 5000 run scoreboard players remove currentfuel tardis1 15
+execute if score autoflight tardis1 matches 1 if score invortex tardis1 matches 1 if score vortexspeed tardis1 matches 2 if score vortextimer tardis1 matches 10000 run scoreboard players remove currentfuel tardis1 15
+execute if score autoflight tardis1 matches 1 if score invortex tardis1 matches 1 if score vortexspeed tardis1 matches 3 if score vortextimer tardis1 matches 100 run scoreboard players remove currentfuel tardis1 15
+execute if score autoflight tardis1 matches 1 if score invortex tardis1 matches 1 if score vortexspeed tardis1 matches 3 if score vortextimer tardis1 matches 5000 run scoreboard players remove currentfuel tardis1 15
+execute if score autoflight tardis1 matches 1 if score invortex tardis1 matches 1 if score vortexspeed tardis1 matches 3 if score vortextimer tardis1 matches 10000 run scoreboard players remove currentfuel tardis1 15

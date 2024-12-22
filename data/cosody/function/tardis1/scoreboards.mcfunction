@@ -31,6 +31,8 @@ scoreboard players add autoflight tardis1 1
 scoreboard players add vortextimer tardis1 0
 scoreboard players set rotortimer tardis1 1
 scoreboard players set zig_zag tardis1 0
+scoreboard players set rotorsfxtimer tardis1 0
+scoreboard players set fuelflight tardis1 25
 
 #this is a local scoreboard and doesnt apply to just tardis 1 !
 scoreboard objectives add crouch minecraft.custom:minecraft.sneak_time
