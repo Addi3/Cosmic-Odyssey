@@ -17,6 +17,6 @@
       }
     },
     "rewards": {
-      "function": "cosody:tardis1/telepathics/detect_key"
+      "function": "cosody:tardis1/systems/telepathics/detect_key"
     }
   }
