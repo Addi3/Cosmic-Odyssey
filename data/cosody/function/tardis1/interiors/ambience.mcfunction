@@ -1,6 +1,6 @@
 #scores
 execute if score ambience1 tardis1 matches 1040 run scoreboard players set ambience1 tardis1 0
-scoreboard players add ambience1 tardis1 1
+execute if score power tardis1 matches 1 run scoreboard players add ambience1 tardis1 1
 
 #sounds
 execute if score ambience1 tardis1 matches 500 run playsound minecraft:ship_ambience1 ambient @a[tag=inside1] ~ ~ ~ 10 1 1

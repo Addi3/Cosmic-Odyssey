@@ -6,3 +6,4 @@ execute if score ignitionbutton tardis1 matches 1 run item replace entity @e[tag
 execute if score ignitionbutton tardis1 matches 1 run scoreboard players set ignitionbutton tardis1 0
 advancement revoke @p only cosody:tardis1/power_off
 effect give @p[tag=inside1] minecraft:darkness infinite 3 true
+stopsound @p[tag=inside1] ambient

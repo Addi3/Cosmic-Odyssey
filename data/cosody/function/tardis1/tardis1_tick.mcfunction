@@ -93,3 +93,4 @@ function cosody:tardis1/de_remat/auto_manual_flight/vortextimer
 
 #musichandler
 function cosody:tardis1/music/new_machine_track
+execute if score new_machine_played tardis1 matches 1 run kill @e[tag=new_machine_track1]
