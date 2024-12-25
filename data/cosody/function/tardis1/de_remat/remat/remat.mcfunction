@@ -85,8 +85,8 @@ execute if score remat_anim_timer tardis1 matches 334 run function cosody:tardis
 execute if score remat_anim_timer tardis1 matches 333 run function cosody:tardis1/de_remat/phases/phase_8
 execute if score remat_anim_timer tardis1 matches 336 at @e[tag=tardis1v] run setblock ~ ~ ~ light[level=9]   
 execute if score remat_anim_timer tardis1 matches 337 run function cosody:tardis1/de_remat/phases/phase_9
-execute if score remat_anim_timer tardis1 matches 338 at @e[tag=tardis1v] run setblock ~ ~ ~ air
-execute if score remat_anim_timer tardis1 matches 338 run item replace entity @e[tag=tardis1] weapon.offhand with minecraft:soul_torch[custom_model_data=1]
+execute if score remat_anim_timer tardis1 matches 337 at @e[tag=tardis1v] run setblock ~ ~ ~ air
+execute if score remat_anim_timer tardis1 matches 338 run item replace entity @e[tag=tardisv] weapon.offhand with minecraft:soul_torch[custom_model_data=1]
 
 
 execute if score remat_anim_timer tardis1 matches 339 run playsound minecraft:thud ambient @a[tag=inside1] ~ ~ ~ 5 1 1
