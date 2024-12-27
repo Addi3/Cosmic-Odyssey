@@ -27,9 +27,9 @@ scoreboard players set taking_off tardis1 0
 scoreboard players set locked tardis1 0
 scoreboard players set remat_anim_timer tardis1 0
 scoreboard players set landing tardis1 0
-scoreboard players add autoflight tardis1 1
-scoreboard players add vortextimer tardis1 0
-scoreboard players set rotortimer tardis1 1
+scoreboard players set autoflight tardis1 1
+scoreboard players set vortextimer tardis1 0
+scoreboard players set rotortimer tardis1 0
 scoreboard players set zig_zag tardis1 0
 scoreboard players set rotorsfxtimer tardis1 0
 scoreboard players set fuelflight tardis1 25
