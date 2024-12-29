@@ -34,6 +34,7 @@ scoreboard players set zig_zag tardis1 0
 scoreboard players set rotorsfxtimer tardis1 0
 scoreboard players set fuelflight tardis1 25
 scoreboard players set new_machine_played tardis1 0
+scoreboard players set chameliontype tardis1 1
 
 #this is a local scoreboard and doesnt apply to just tardis 1 !
 scoreboard objectives add crouch minecraft.custom:minecraft.sneak_time
