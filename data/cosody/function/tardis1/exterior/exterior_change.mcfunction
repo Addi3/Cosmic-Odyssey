@@ -1,7 +1,6 @@
 execute if score chamelionNo tardis1 matches 1 run scoreboard players set chamelion tardis1 1
 execute if score chamelionNo tardis1 matches 2 run scoreboard players set chamelion tardis1 2
 execute if score chamelionNo tardis1 matches 3 run scoreboard players set chamelion tardis1 3
-scoreboard players set chameliontype tardis1 1
 
 
 #ttcapsules
