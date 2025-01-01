@@ -7,24 +7,29 @@ execute if score chamelionNo tardis1 matches 3 run scoreboard players set chamel
 #mk1
 execute if score chamelionNo tardis1 matches 1 if score chameliontype tardis1 matches 1 run item replace entity @e[tag=tardis1] armor.head with minecraft:light_gray_dye[custom_model_data=1]
 execute if score chamelionNo tardis1 matches 1 if score chameliontype tardis1 matches 1 run item replace entity @e[tag=intdoor1] armor.head with minecraft:light_gray_dye[custom_model_data=4]
+execute if score chamelionNo tardis1 matches 1 if score chameliontype tardis1 matches 1 run item replace entity @e[tag=vortextardis1] armor.head with minecraft:light_gray_dye[custom_model_data=1]
 
 #phonebooths
 #mk1
 execute if score chamelionNo tardis1 matches 2 if score chameliontype tardis1 matches 1 run item replace entity @e[tag=tardis1] armor.head with minecraft:red_dye[custom_model_data=1]
 execute if score chamelionNo tardis1 matches 2 if score chameliontype tardis1 matches 1 run item replace entity @e[tag=intdoor1] armor.head with minecraft:red_dye[custom_model_data=3]
+execute if score chamelionNo tardis1 matches 2 if score chameliontype tardis1 matches 1 run item replace entity @e[tag=vortextardis1] armor.head with minecraft:red_dye[custom_model_data=1]
 
 #policeboxs
 #mk1
 execute if score chamelionNo tardis1 matches 3 if score chameliontype tardis1 matches 1 run item replace entity @e[tag=tardis1] armor.head with minecraft:light_blue_dye[custom_model_data=1]
 execute if score chamelionNo tardis1 matches 3 if score chameliontype tardis1 matches 1 run item replace entity @e[tag=intdoor1] armor.head with minecraft:light_blue_dye[custom_model_data=4]
+execute if score chamelionNo tardis1 matches 3 if score chameliontype tardis1 matches 1 run item replace entity @e[tag=vortextardis1] armor.head with minecraft:light_blue_dye[custom_model_data=1]
 
 #mk2
 execute if score chamelionNo tardis1 matches 3 if score chameliontype tardis1 matches 2 run item replace entity @e[tag=tardis1] armor.head with minecraft:blue_dye[custom_model_data=1]
 execute if score chamelionNo tardis1 matches 3 if score chameliontype tardis1 matches 2 run item replace entity @e[tag=intdoor1] armor.head with minecraft:blue_dye[custom_model_data=3]
+execute if score chamelionNo tardis1 matches 3 if score chameliontype tardis1 matches 2 run item replace entity @e[tag=vortextardis1] armor.head with minecraft:blue_dye[custom_model_data=1]
 
 #mk3
 execute if score chamelionNo tardis1 matches 3 if score chameliontype tardis1 matches 3 run item replace entity @e[tag=tardis1] armor.head with minecraft:cyan_dye[custom_model_data=1]
 execute if score chamelionNo tardis1 matches 3 if score chameliontype tardis1 matches 3 run item replace entity @e[tag=intdoor1] armor.head with minecraft:cyan_dye[custom_model_data=3]
+execute if score chamelionNo tardis1 matches 3 if score chameliontype tardis1 matches 3 run item replace entity @e[tag=vortextardis1] armor.head with minecraft:cyan_dye[custom_model_data=1]
 
 scoreboard players set doors tardis1 0
 

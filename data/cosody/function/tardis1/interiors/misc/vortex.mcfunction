@@ -1,0 +1,1 @@
+execute in cosody:interior1 run place template cosody:misc/vortex -1 170 6

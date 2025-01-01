@@ -1,4 +1,5 @@
 function cosody:tardis1/interiors/chronometer
+function cosody:tardis1/interiors/misc/vortex
 function cosody:tardis1/interiors/corridors/corridor1
 function cosody:tardis1/interiors/corridors/room_eoh
 
