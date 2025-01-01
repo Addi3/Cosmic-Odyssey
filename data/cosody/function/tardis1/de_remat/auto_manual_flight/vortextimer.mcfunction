@@ -44,5 +44,5 @@ execute if score autoflight tardis1 matches 1 if score invortex tardis1 matches 
 execute if score autoflight tardis1 matches 1 if score invortex tardis1 matches 1 if score vortexspeed tardis1 matches 3 if score vortextimer tardis1 matches 10000 run scoreboard players remove currentfuel tardis1 15
 
 execute if score vortexspeed tardis1 matches 1 as @e[tag=vortextardis1] at @s run tp @s ~ ~ ~ ~5 ~
-execute if score vortexspeed tardis1 matches 2 as @e[tag=vortextardis1] at @s run tp @s ~ ~ ~ ~10 ~
-execute if score vortexspeed tardis1 matches 3 as @e[tag=vortextardis1] at @s run tp @s ~ ~ ~ ~15 ~
+execute if score vortexspeed tardis1 matches 2 as @e[tag=vortextardis1] at @s run tp @s ~ ~ ~ ~15 ~
+execute if score vortexspeed tardis1 matches 3 as @e[tag=vortextardis1] at @s run tp @s ~ ~ ~ ~25 ~
