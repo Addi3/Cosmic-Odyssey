@@ -1,5 +1,6 @@
 execute in cosody:interior1 run kill @e[tag=intdoorint1]
 execute in cosody:interior1 run kill @e[tag=intdoor1]
+execute in cosody:interior1 at @e[tag=console1] run kill @e[type=minecraft:glow_item_frame,distance=..20]
 execute in cosody:interior1 run kill @e[tag=console1]
 execute in cosody:interior1 run kill @e[tag=rotorbase1]
 execute in cosody:interior1 run kill @e[tag=rotor_anim1]
