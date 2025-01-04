@@ -8,7 +8,7 @@ execute at @e[tag=open1] if entity @p[distance=..0.7] run function cosody:tardis
 execute at @e[tag=intopen1] if entity @p[distance=..0.5] run function cosody:tardis1/doors/leave
 
 #isnew
-execute if score new tardis1 matches 1 in cosody:interior1 if block 22 116 27 minecraft:lodestone run function cosody:tardis1/first_repair
+execute if score new tardis1 matches 1 in cosody:interior1 if block 22 116 27 minecraft:beacon run function cosody:tardis1/first_repair
 execute unless entity @a[tag=inside1] if score needsfixing tardis1 matches 1 if score new tardis1 matches 1 run function cosody:tardis1/new_fix
 execute if score new tardis1 matches 1 at @e[tag=tardis1] run particle minecraft:wax_on ~ ~ ~ 2 2 2 .1 10
 execute if score new tardis1 matches 1 at @e[tag=tardis1] run particle minecraft:trial_spawner_detection ~ ~ ~ 2 2 2 .1 20
