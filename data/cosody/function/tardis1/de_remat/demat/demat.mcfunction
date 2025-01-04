@@ -1,7 +1,7 @@
 execute if score taking_off tardis1 matches 1 if score doors tardis1 matches 0 if score zig_zag tardis1 matches 1 if score handbrake tardis1 matches 0 if score currentfuel tardis1 >= fuelflight tardis1 run scoreboard players add demat_anim_timer tardis1 1 
 execute if score demat_anim_timer tardis1 matches 1 run function cosody:tardis1/de_remat/renametotardis1v
 execute if score demat_anim_timer tardis1 matches 1 run playsound minecraft:thud ambient @a[tag=inside1] ~ ~ ~ 5 1 1
-execute if score demat_anim_timer tardis1 matches 2 at @e[tag=tardis1v] if entity @p[distance=..5] run playsound minecraft:takeoff ambient @p ~ ~ ~ 5 1 1
+execute if score demat_anim_timer tardis1 matches 2 at @e[tag=tardis1v] if entity @p[distance=..5] unless entity @p[tag=inside1] run playsound minecraft:takeoff ambient @p ~ ~ ~ 5 1 1
 execute if score demat_anim_timer tardis1 matches 2 run playsound minecraft:takeoff ambient @a[tag=inside1] ~ ~ ~ 5 1 1
 execute if score demat_anim_timer tardis1 matches 3 run scoreboard players set is_landed tardis1 0
 execute at @e[tag=tardis1v] if score demat_anim_timer tardis1 matches 3 run tp @e[tag=extdoorint1] ~ ~-3 ~

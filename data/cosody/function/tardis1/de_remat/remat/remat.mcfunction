@@ -3,7 +3,7 @@ execute if score landing tardis1 matches 1 run scoreboard players set invortex t
 execute if score landing tardis1 matches 1 run scoreboard players set rotorsfxtimer tardis1 0
 execute if score landing tardis1 matches 1 run scoreboard players set rotortimer tardis1 0
 execute if score landing tardis1 matches 1 run scoreboard players set vortextimer tardis1 0
-execute if score remat_anim_timer tardis1 matches 2 at @e[tag=tardis1v] if entity @p[distance=..5] run playsound minecraft:landing ambient @p ~ ~ ~ 5 1 1
+execute if score remat_anim_timer tardis1 matches 2 at @e[tag=tardis1v] if entity @p[distance=..5] unless entity @p[tag=inside1] run playsound minecraft:landing ambient @p ~ ~ ~ 5 1 1
 execute if score remat_anim_timer tardis1 matches 2 run playsound minecraft:landing ambient @a[tag=inside1] ~ ~ ~ 5 1 1
 execute if score remat_anim_timer tardis1 matches 10 in cosody:interior1 as @e[tag=rotor_anim1] at @e[tag=console1] run tp @s ~ ~ ~
 
