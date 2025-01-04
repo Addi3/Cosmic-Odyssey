@@ -38,12 +38,6 @@ execute if entity @e[tag=tardis1spawnmarker] at @e[tag=tardis1] run particle min
 execute if entity @e[tag=tardis1crash] at @e[tag=tardis1] run particle minecraft:campfire_cosy_smoke ~ ~ ~ .5 3 .5 0 5
 
 #mainpowersystem
-execute in cosody:interior1 if block -33 119 -20 minecraft:soul_lantern if block -19 119 -20 minecraft:soul_lantern if block -33 119 -6 minecraft:soul_lantern if block -19 119 -6 minecraft:soul_lantern run function cosody:tardis1/systems/power/eoh_powerup
-execute in cosody:interior1 unless block -33 119 -20 minecraft:soul_lantern unless block -19 119 -20 minecraft:soul_lantern unless block -33 119 -6 minecraft:soul_lantern unless block -19 119 -6 minecraft:soul_lantern run function cosody:tardis1/systems/power/eoh_poweroff
-execute in cosody:interior1 if block -33 119 -20 minecraft:soul_lantern run particle minecraft:soul_fire_flame -33 119 -20 .5 .5 .5 0 1
-execute in cosody:interior1 if block -19 119 -20 minecraft:soul_lantern run particle minecraft:soul_fire_flame -19 119 -20 .5 .5 .5 0 1
-execute in cosody:interior1 if block -19 119 -6 minecraft:soul_lantern run particle minecraft:soul_fire_flame -19 119 -6 .5 .5 .5 0 1
-execute in cosody:interior1 if block -33 119 -6 minecraft:soul_lantern run particle minecraft:soul_fire_flame -33 119 -6 .5 .5 .5 0 1
 
 execute in cosody:interior1 if block -25 123 -67 redstone_block if score power tardis1 matches 1 run function cosody:tardis1/systems/power/turn_on
 execute in cosody:interior1 if block -25 123 -67 redstone_block if score power tardis1 matches 0 run function cosody:tardis1/systems/power/turn_off
