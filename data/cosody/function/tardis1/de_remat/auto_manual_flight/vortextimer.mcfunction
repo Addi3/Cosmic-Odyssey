@@ -4,6 +4,7 @@ execute if score autoflight tardis1 matches 1 if score invortex tardis1 matches 
 execute if score vortextimer tardis1 matches 10000.. run function cosody:tardis1/systems/throttle/throttle_land
 execute if score vortextimer tardis1 matches 10000.. run scoreboard players set vortextimer tardis1 0
 execute at @e[tag=console1] if entity @p[distance=..5] if score invortex tardis1 matches 1 run title @p actionbar [{"score":{"objective":"tardis1","name":"vortextimer"},"color":"gold"},{"text":" / 10000","color":"gold"}]
+execute at @e[tag=vortextardis1] if entity @p[distance=..10] if score invortex tardis1 matches 1 run title @p actionbar [{"score":{"objective":"tardis1","name":"vortextimer"},"color":"gold"},{"text":" / 10000","color":"gold"}]
 execute if score vortexspeed tardis1 matches 1 if score invortex tardis1 matches 1 run scoreboard players add rotortimer tardis1 1
 execute if score vortexspeed tardis1 matches 2 if score invortex tardis1 matches 1 run scoreboard players add rotortimer tardis1 5
 execute if score vortexspeed tardis1 matches 3 if score invortex tardis1 matches 1 run scoreboard players add rotortimer tardis1 10
