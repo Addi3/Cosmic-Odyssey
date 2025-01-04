@@ -37,7 +37,16 @@ execute if entity @e[tag=tardis1crash] at @e[tag=tardis1] unless block ~ ~-1 ~ a
 execute if entity @e[tag=tardis1spawnmarker] at @e[tag=tardis1] run particle minecraft:campfire_cosy_smoke ~ ~ ~ .5 3 .5 0 5
 execute if entity @e[tag=tardis1crash] at @e[tag=tardis1] run particle minecraft:campfire_cosy_smoke ~ ~ ~ .5 3 .5 0 5
 
-#mainpowersystem
+#eohstuff
+execute if score eohon tardis1 matches 0 as @e[tag=blackhole] at @s run tp @s ~ ~ ~ ~5 ~
+execute if score eohon tardis1 matches 1 as @e[tag=blackhole] at @s run tp @s ~ ~ ~ ~25 ~
+execute if score eohon tardis1 matches 1 at @e[tag=bhparticle1] facing entity @e[tag=blackhole] eyes run particle minecraft:end_rod ~ ~1 ~ -7 0 -7 .1 0
+execute if score eohon tardis1 matches 1 at @e[tag=bhparticle2] facing entity @e[tag=blackhole] eyes run particle minecraft:end_rod ~ ~1 ~ .1 .1 7 0 5
+execute if score eohon tardis1 matches 1 at @e[tag=bhparticle3] facing entity @e[tag=blackhole] eyes run particle minecraft:end_rod ~ ~1 ~ 7 0 -7 .1 0
+execute if score eohon tardis1 matches 1 at @e[tag=bhparticle4] facing entity @e[tag=blackhole] eyes run particle minecraft:end_rod ~ ~1 ~ 3 .1 .1 0 5
+execute if score eohon tardis1 matches 1 at @e[tag=bhparticle5] facing entity @e[tag=blackhole] eyes run particle minecraft:end_rod ~ ~1 ~ 7 0 7 .1 0
+execute if score eohon tardis1 matches 1 at @e[tag=bhparticle6] facing entity @e[tag=blackhole] eyes run particle minecraft:end_rod ~ ~1 ~ .1 .1 7 0 5
+execute if score eohon tardis1 matches 1 at @e[tag=bhparticle7] facing entity @e[tag=blackhole] eyes run particle minecraft:end_rod ~ ~1 ~ -7 0 7 .1 0
 
 execute in cosody:interior1 if block -25 123 -67 redstone_block if score power tardis1 matches 1 run function cosody:tardis1/systems/power/turn_on
 execute in cosody:interior1 if block -25 123 -67 redstone_block if score power tardis1 matches 0 run function cosody:tardis1/systems/power/turn_off
