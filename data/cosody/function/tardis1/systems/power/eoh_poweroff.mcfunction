@@ -1,3 +1,4 @@
+execute if score eohon tardis1 matches 1 run playsound minecraft:block.beacon.deactivate ambient @a[tag=inside1] -18.75 123.37 -18.38 5 1 1
 scoreboard players set eohon tardis1 0
 execute in cosody:interior1 run setblock -25 123 -67 air
 scoreboard players set power tardis1 0

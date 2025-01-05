@@ -47,6 +47,14 @@ execute if score eohon tardis1 matches 1 at @e[tag=bhparticle4] facing entity @e
 execute if score eohon tardis1 matches 1 at @e[tag=bhparticle5] facing entity @e[tag=blackhole] eyes run particle minecraft:end_rod ~ ~1 ~ 7 0 7 .1 0
 execute if score eohon tardis1 matches 1 at @e[tag=bhparticle6] facing entity @e[tag=blackhole] eyes run particle minecraft:end_rod ~ ~1 ~ .1 .1 7 0 5
 execute if score eohon tardis1 matches 1 at @e[tag=bhparticle7] facing entity @e[tag=blackhole] eyes run particle minecraft:end_rod ~ ~1 ~ -7 0 7 .1 0
+execute in cosody:interior1 if block -20 122 -31 minecraft:dispenser{Items:[{components:{"minecraft:custom_model_data":1},count:1,id:"minecraft:blaze_rod"}]} if block -20 122 -7 minecraft:dispenser{Items:[{components:{"minecraft:custom_model_data":1},count:1,id:"minecraft:blaze_rod"}]} if block -19 123 -19 lever[powered=true] run function cosody:tardis1/systems/power/eoh_powerup
+execute in cosody:interior1 unless block -20 122 -31 minecraft:dispenser{Items:[{components:{"minecraft:custom_model_data":1},count:1,id:"minecraft:blaze_rod"}]} unless block -20 122 -7 minecraft:dispenser{Items:[{components:{"minecraft:custom_model_data":1},count:1,id:"minecraft:blaze_rod"}]} unless block -19 123 -19 lever[powered=true] run function cosody:tardis1/systems/power/eoh_poweroff
+execute in cosody:interior1 unless block -20 122 -7 minecraft:dispenser{Items:[{components:{"minecraft:custom_model_data":1},count:1,id:"minecraft:blaze_rod"}]} run setblock -20 124 -8 minecraft:redstone_lamp[lit=false]
+execute in cosody:interior1 unless block -20 122 -31 minecraft:dispenser{Items:[{components:{"minecraft:custom_model_data":1},count:1,id:"minecraft:blaze_rod"}]} run setblock -20 124 -30 minecraft:redstone_lamp[lit=false]
+execute in cosody:interior1 if block -20 122 -7 minecraft:dispenser{Items:[{components:{"minecraft:custom_model_data":1},count:1,id:"minecraft:blaze_rod"}]} run setblock -20 124 -8 minecraft:redstone_lamp[lit=true]
+execute in cosody:interior1 if block -20 122 -31 minecraft:dispenser{Items:[{components:{"minecraft:custom_model_data":1},count:1,id:"minecraft:blaze_rod"}]} run setblock -20 124 -30 minecraft:redstone_lamp[lit=true]
+execute in cosody:interior1 if block -20 122 -31 minecraft:dispenser{Items:[{components:{"minecraft:custom_model_data":1},count:1,id:"minecraft:blaze_rod"}]} if block -20 122 -7 minecraft:dispenser{Items:[{components:{"minecraft:custom_model_data":1},count:1,id:"minecraft:blaze_rod"}]} if block -18 123 -17 lever[powered=true] run scoreboard players add currentfuel tardis1 1
+
 
 execute in cosody:interior1 if block -25 123 -67 redstone_block if score power tardis1 matches 1 run function cosody:tardis1/systems/power/turn_on
 execute in cosody:interior1 if block -25 123 -67 redstone_block if score power tardis1 matches 0 run function cosody:tardis1/systems/power/turn_off
