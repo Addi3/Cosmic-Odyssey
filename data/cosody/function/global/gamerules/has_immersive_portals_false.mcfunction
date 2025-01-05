@@ -1,2 +1,2 @@
 tellraw @a "Gamerule HasImmerivePortals is now set to: false"
-scoreboard players set hasimmeriveportals gamerules 0
+scoreboard players set hasimmersiveportals gamerules 0
