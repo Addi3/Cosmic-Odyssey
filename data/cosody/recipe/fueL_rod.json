@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  i",
+    " e ",
+    "i  "
+  ],
+  "key": {
+    "i": "minecraft:iron_ingot",
+    "e": "minecraft:end_rod"
+  },
+  "result": {
+    "id": "minecraft:blaze_rod",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 1,
+      "minecraft:item_name": "{\"color\":\"aqua\",\"text\":\"Fuel Rod\"}"
+    }
+  }
+}
